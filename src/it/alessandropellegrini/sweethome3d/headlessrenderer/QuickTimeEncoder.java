@@ -1,3 +1,7 @@
+/*
+ * SPDX-FileCopyrightText: 2023 Alessandro Pellegrini <alessandro.pellegrini87@gmail.com>
+ * SPDX-License-Identifier: GPL-3.0-only
+ */
 package it.alessandropellegrini.sweethome3d.headlessrenderer;
 
 import it.alessandropellegrini.sweethome3d.headlessrenderer.jmt.HeadlessMediaProcessor;

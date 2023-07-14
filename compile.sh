@@ -1,4 +1,6 @@
 #!/bin/bash
+# SPDX-FileCopyrightText: 2023 Alessandro Pellegrini <alessandro.pellegrini87@gmail.com>
+# SPDX-License-Identifier: CC0-1.0
 
 javac -cp .:./libs/* -d bin \
    ./src/picocli/CommandLine.java \

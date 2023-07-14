@@ -1,0 +1,30 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Sweet Home 3D Headless Renderer
+Upstream-Contact: Alessandro Pellegrini <alessandro.pellegrini87@gmail.com>
+Source: https://github.com/alessandropellegrini/sh3d-headless-renderer
+
+# Sample paragraph, commented out:
+#
+# Files: src/*
+# Copyright: $YEAR $NAME <$CONTACT>
+# License: ...
+
+Files: libs/sunflow-0.07.3i.jar
+Copyright: 2006-2010 Christopher Kulla <https://sunflow.sourceforge.net/>
+License: MIT
+
+Files: libs/j3dcore.jar libs/j3dutils.jar libs/vecmath.jar libs/jogl-java3d.jar libs/gluegen-rt.jar natives/linux-amd64/*
+Copyright: 1999-2003 Sun Microsystems, Inc. - 2004-2007 JogAmp Community <http://jogamp.org>
+License: GPL-3.0-linking-exception
+
+Files: libs/SweetHome3D.jar userGuideExample.sh3d
+Copyright: 2006-2023 Emmanuel Puybaret <http://www.sweethome3d.com/>
+License: GPL-2.0-or-later
+
+Files: libs/jmf.jar
+Copyright: 1998-2000 Sun Microsystems, Inc.
+License: LicenseRef-JMF
+
+Files: yafaray/* yafaray/yafaray-plugins/*
+Copyright: 2001-2010 Alejandro Conty Estevez <http://www.yafaray.org/>
+License: LGPL-2.0-or-later
